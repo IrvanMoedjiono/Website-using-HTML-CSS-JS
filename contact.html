@@ -1,0 +1,183 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Corporate Web</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/contact.css">
+  </head>
+    
+  <body>
+     <div id="wrapper">
+       <div id="header">
+         <!-- Start Header -->
+          <div class="container">
+            <div id="header_left">
+              <!-- Start Header Left -->
+                <img src="images/logo.png">
+              <!-- End Header Left -->
+            </div>
+            <div id="header_right">
+              <!-- Start Header Right -->
+                 <ul>
+                   <li><a href="index.html" id="itemhome">Home</a></li>
+                   <li><a href="#" id="itemnews">News</a></li>
+                   <li><a href="#" id="itemgallery">Gallery</a></li>
+                   <li><a href="contact.html" id="itemcontact">Contact</a></li>
+                 </ul>
+              <!-- End Header Right -->
+            </div>
+          </div>
+         <!-- End Header -->
+       </div>
+       
+       <div id="content">
+         <!-- Start Content -->
+           <div class="container">
+             <div id="contact_left">
+                <!-- Start Contact Left -->
+                   <h2 class="thetitle">Welcome,Dear Visitor</h2>
+                   <form id="form_contact" method="post" action="">
+                    <table cellspacing="20">
+                      <tr>
+                        <Td>Fullname</Td>
+                        <td>:</td>
+                        <td>
+                          <input type="text" id="fullname" name="fullname" placeholder="Please Fill Fullname" value="" required>
+                        </td>
+                      </tr>
+                      <tr>
+                        <Td>Username</Td>
+                        <td>:</td>
+                        <td>
+                          <input type="text" id="username" name="username" placeholder="Please Fill Username" value="">
+                        </td>
+                      </tr>
+                      <tr>
+                        <Td>Password</Td>
+                        <td>:</td>
+                        <td>
+                          <input type="password" id="password" name="password" placeholder="password" value="">
+                        </td>
+                      </tr>
+                      <tr>
+                        <Td>Email</Td>
+                        <td>:</td>
+                        <td>
+                          <input type="email" id="useremail" name="useremail" placeholder="Please Fill email" value="">
+                        </td>
+                      </tr>
+                      <tr>
+                        <Td>Gender</Td>
+                        <td>:</td>
+                        <td>
+                          <input type="radio" id="gendermale" name="gender" value="male" checked>
+                          &nbsp; Male 
+                          &nbsp;&nbsp;&nbsp;&nbsp;
+                          <input type="radio" id="genderfemale" name="gender" value="female">
+                          &nbsp; Female      
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Brith&nbsp;Date</td>
+                        <td>:</td>
+                        <td>
+                          <input type="date" id="birthdate" name="birthdate">
+                          <!-- <select id="day">
+                            <option value="">--Day--</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                          </select>
+                          <select id="month">
+                            <option value="">--Month--</option>
+                            <option value="jan">Jan</option>
+                            <option value="feb">Feb</option>
+                            <option value="mar">Mar</option>
+                            <option value="apr">Apr</option>
+                            <option value="may">May</option>
+                          </select>
+                          <select id="year">
+                            <option value="">--Year--</option>
+                            <option value="2015">2015</option>
+                            <option value="2016">2016</option>
+                            <option value="2017">2017</option>
+                            <option value="2018">2018</option>
+                            <option value="2019">2019</option>
+                          </select>-->
+                        </td>
+                      </tr>
+                      <tr>
+                        <Td>Hobby</Td>
+                        <td>:</td>
+                        <td>
+                          <input type="checkbox" id="sports" name="sports" value="sports">
+                          &nbsp;Sports&nbsp;&nbsp;
+                          <input type="checkbox" id="travel" name="travel" value="travel">
+                          &nbsp;Travel&nbsp;&nbsp;
+                          <input type="checkbox" id="culture" name="culture" value="culture">
+                          &nbsp;Culture&nbsp;&nbsp;
+                          <br>
+                          <input type="checkbox" id="culinary" name="culinary" value="culinary">
+                          &nbsp;Culinary&nbsp;&nbsp;
+                          <input type="checkbox" id="shopping" name="shopping" value="shopping">
+                          &nbsp;Shopping&nbsp;&nbsp;
+                          <input type="checkbox" id="praying" name="praying" value="praying">
+                          &nbsp;Praying&nbsp;&nbsp;
+                        </td>
+                      </tr>
+                      <tr>
+                        <Td valign="top">Color Fav</Td>
+                        <td valign="top">:</td>
+                        <td>
+                          <input type="color" id="yourcolor" name="yourcolor" value="#00FF00">
+                        </td>
+                      </tr>
+                      <tr>
+                        <Td valign="top">Photo</Td>
+                        <td valign="top">:</td>
+                        <td>
+                          <input type="file" id="photo" name="photo">
+                        </td>
+                      </tr>
+                      <tr>
+                        <Td valign="top">Message</Td>
+                        <td valign="top">:</td>
+                        <td>
+                          <textarea id="message" name="message"></textarea>
+                        </td>
+                      </tr>
+                      <tr>
+                        <Td></Td>
+                        <td></td>
+                        <td>
+                          <input type="submit" id="submit" name="submit" value="Submit">
+                          &nbsp;&nbsp;
+                          <input type="reset" id="reset" name="reset" value="Reset">
+                        </td>
+                      </tr>
+                    </table>
+
+                   </form>
+                <!-- End Contact Left -->
+             </div>
+             <div id="contact_right">
+                <!-- Start Contact Right -->
+                
+                <!-- End Contact Right -->
+             </div>
+           </div>
+         <!-- End Content -->
+       </div>
+       <div id="footer">
+         <!-- Start Footer -->
+         <div class="container">
+           CopyRights &copy; 2018 babastudio.com 
+         </div>
+         <!-- End Footer -->
+       </div>
+     </div>
+  </body>
+</html>
